@@ -1,0 +1,8 @@
+ng generate / ng g
+ng generate component <file_name>/ ng g c <file_name>
+ng serve --host <ip_address>
+
+Parent to child
+@Input
+Child to Parent
+@Output

@@ -7,4 +7,11 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "my-learn";
+
+  list: string[] = [];
+
+  display(event) {
+    this.list.push(event);
+    console.log("Event from child " + event);
+  }
 }
