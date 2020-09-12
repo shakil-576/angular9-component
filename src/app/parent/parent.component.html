@@ -1,9 +1,10 @@
-<p appUpperCase>My parent component shakil</p>
-<app-child-new
-  appUpperCase
-  name="Aleena"
-  (childAge)="getMyChildAge($event)"
-></app-child-new>
-<p appUpperCase>My child age is :- {{ childAge }}</p>
-<div appUpperCase>Div</div>
-<span>Span </span>
+<div appUpperCase>
+  <p>My parent component shakil</p>
+  <app-child-new
+    name="Aleena"
+    (childAge)="getMyChildAge($event)"
+  ></app-child-new>
+  <p>My child age is :- {{ childAge }}</p>
+  <div>Div</div>
+  <span>Span </span>
+</div>

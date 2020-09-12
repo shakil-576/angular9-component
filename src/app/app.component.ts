@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { MyTestServiceService } from "./my-test-service.service";
 
 @Component({
   selector: "app-root",
@@ -7,6 +8,8 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "my-learn";
+
+  constructor(public serviceObj: MyTestServiceService) {}
 
   list: string[] = [];
 
