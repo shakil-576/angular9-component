@@ -1,0 +1,13 @@
+<div>
+  Uppercase Pipe Example
+
+  <H1>Uppercase {{ name | uppercase }}</H1>
+  <H1>Percent {{ 0.15 | percent }}</H1>
+  <H1>Date {{ date | date }}</H1>
+  <H1
+    >Original data [1, 2, 3] After Pipe transform
+    {{ [1, 2, 3] | arrayFilterPipe: 1 }}</H1
+  >
+
+  <h1>Add Pipe {{ 10 | add: 5:10:20:5:85:5 }}</h1>
+</div>

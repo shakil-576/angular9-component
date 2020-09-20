@@ -12,6 +12,9 @@ import { TestMyComponentComponent } from "./test-my-component/test-my-component.
 import { ChildNewComponent } from "./child-new/child-new.component";
 import { MyTestServiceService } from "./my-test-service.service";
 import { StudentModuleModule } from "./student-module/student-module.module";
+import { PipeExampleComponent } from "./pipe-example/pipe-example.component";
+import { ArrayFilterPipePipe } from "./array-filter-pipe.pipe";
+import { AddPipe } from "./add.pipe";
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { StudentModuleModule } from "./student-module/student-module.module";
     MyComponentComponent,
     TestMyComponentComponent,
     ChildNewComponent,
+    PipeExampleComponent,
+    ArrayFilterPipePipe,
+    AddPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, StudentModuleModule],
   providers: [],

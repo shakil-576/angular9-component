@@ -10,7 +10,7 @@ export class MyTestServiceService {
   myServiceName: string = "StudentService";
 
   constructor(public studentService: StudentService) {
-    alert(studentService.name);
+    // alert(studentService.name);
   }
 }
 

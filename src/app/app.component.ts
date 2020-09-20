@@ -9,7 +9,13 @@ import { MyTestServiceService } from "./my-test-service.service";
 export class AppComponent {
   title = "my-learn";
 
-  constructor(public serviceObj: MyTestServiceService) {}
+  nameGivenByParent = "Aleena";
+
+  defaultName: string = "";
+
+  constructor(public serviceObj: MyTestServiceService) {
+    this.defaultName = "ABC";
+  }
 
   list: string[] = [];
 

@@ -1,9 +1,15 @@
 <!-- <my-new-cmp></my-new-cmp>
-<app-child [name]="'shakil'" (newItemEvent)="display($event)"></app-child>
-
-<li *ngFor="let name of list">
-  <span appUpperCase>{{ name }}</span>
-</li> -->
+  
+  <li *ngFor="let name of list">
+    <span appUpperCase>{{ name }}</span>
+  </li> -->
+<!-- <app-child
+  [name]="nameGivenByParent"
+  (newItemEvent)="display($event)"
+></app-child>
 
 My service name is {{ serviceObj.myServiceName }}
-<app-parent></app-parent>
+<app-parent></app-parent> -->
+
+<!-- ----------Pipe Example------------- -->
+<app-pipe-example></app-pipe-example>
