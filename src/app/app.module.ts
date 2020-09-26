@@ -15,6 +15,7 @@ import { StudentModuleModule } from "./student-module/student-module.module";
 import { PipeExampleComponent } from "./pipe-example/pipe-example.component";
 import { ArrayFilterPipePipe } from "./array-filter-pipe.pipe";
 import { AddPipe } from "./add.pipe";
+import { ValidationExampleComponent } from './validation-example/validation-example.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AddPipe } from "./add.pipe";
     PipeExampleComponent,
     ArrayFilterPipePipe,
     AddPipe,
+    ValidationExampleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, StudentModuleModule],
   providers: [],
