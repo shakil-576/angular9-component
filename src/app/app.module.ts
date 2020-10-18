@@ -16,6 +16,7 @@ import { PipeExampleComponent } from "./pipe-example/pipe-example.component";
 import { ArrayFilterPipePipe } from "./array-filter-pipe.pipe";
 import { AddPipe } from "./add.pipe";
 import { ValidationExampleComponent } from './validation-example/validation-example.component';
+import { PromiseVsObservablesComponent } from './promise-vs-observables/promise-vs-observables.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ValidationExampleComponent } from './validation-example/validation-exam
     ArrayFilterPipePipe,
     AddPipe,
     ValidationExampleComponent,
+    PromiseVsObservablesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, StudentModuleModule],
   providers: [],
